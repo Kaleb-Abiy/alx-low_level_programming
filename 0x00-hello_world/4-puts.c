@@ -1,20 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - Entry
- * return - Sucess
+ * main - Entry point
+ *
+ * return: Aways 0(success)
  */
-
 int main(void)
 
 {
-
-		char str1[60] = "\"Programming is like building a multilingual puzzle";
-
+	char str1[60] = "\"Programming is like building a multilingual puzzle";
 
 
-			puts(str1);
 
-			return (0);
+	puts(str1);
+
+	return (0);
 
 }
