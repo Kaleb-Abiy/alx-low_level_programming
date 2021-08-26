@@ -1,21 +1,27 @@
-#includ <studio.h>
+#include <stdio.h>
 
 
-int main(void) 
+
+/**
+ *
+ *  * main - Entry point
+ *
+ *   *
+ *
+ *    * Return: Always 0 (Success)
+ *
+ *     */
+
+int main(void)
+
 {
 
-
-
-	char var1[80] = "Programming is like building a multilingual puzzle";
-        
-
-	puts(var1);
-	return(0);
+		char str1[60] = "\"Programming is like building a multilingual puzzle";
 
 
 
+			puts(str1);
 
-
-
+				return (0);
 
 }
