@@ -1,4 +1,4 @@
-#include <stdio.h
+#include <stdio.h>
 
 /**
   * main - Entry point
@@ -8,13 +8,15 @@
 int main(void)
 
 {
-	int n = 97;
 
-	for ( ; n <= 122 ; n++)
-	{
-		putchar(n);	
-	}
-	putchar(10);
-	reurn(0);
+		int n = 97;
+
+
+		for ( ; n <= 122 ; n++)
+		{
+			putchar(n);
+		}
+		putchar(10);
+		return (0);
 
 }
