@@ -13,9 +13,9 @@ int main(void)
 
 	while (*sh)
 	{
-		putchar(*sh);
+		_putchar(*sh);
 		sh++;
 	}	
 	_putchar ('\n');
-	return (0):
+	return (0);
 }
